@@ -83,5 +83,9 @@ and we have a Button look like:
 
 ![DownloadButton](https://cdn.discordapp.com/attachments/960780341952544798/1013290258168827945/z3677788945730_4c58a199ab1309972048c826f795de09.jpg)
 
+on tap: 
+
+![OnTapDownloadButton](https://cdn.discordapp.com/attachments/960780341952544798/1013297637228810240/z3677856754747_406bc44fe554b6df6383e8a408798ed8.jpg)
+
 ## Additional information
 The package is under development and will be continuously updated
