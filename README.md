@@ -1,16 +1,3 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
 A core plugin for develop Flutter project fast
 Include Widgets what is used regularly 
 
@@ -39,7 +26,9 @@ class MyButton extends StatelessWidget {
       child: Text(
           label,
           style: TextStyle(
+            'Đăng nhập',
             fontWeight: FontWeight.w500,
+            color: Colors.white,
           )
       )
       ,
@@ -47,7 +36,6 @@ class MyButton extends StatelessWidget {
   }
 }
 ```
-
 
 It is equivalent to:
 
@@ -73,10 +61,10 @@ class InkWellButton extends StatelessWidget {
               width: 100.0,
               child: Center(
                   child: Text(
-                      label,
+                      'Đăng nhập',
                       style: TextStyle(
                         fontWeight: FontWeight.w500,
-                        color: isCheck ? Colors.white : Colors.primaryColor,
+                        color: Colors.white,
                       )
                   )
               ),
@@ -89,8 +77,11 @@ class InkWellButton extends StatelessWidget {
     );
   }
 }
-
 ```
+
+and we have a Button look like:
+
+![DownloadButton](https://cdn.discordapp.com/attachments/960780341952544798/1013290258168827945/z3677788945730_4c58a199ab1309972048c826f795de09.jpg)
 
 ## Additional information
 
