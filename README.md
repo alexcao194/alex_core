@@ -2,10 +2,10 @@ A core plugin for develop Flutter project fast
 Include Widgets what is used regularly 
 
 ## Features
-
+Contains the custom Widgets
 
 ## Getting started
-
+The project just needs to be added and used without any constraints
 
 ## Usage
 
@@ -84,4 +84,4 @@ and we have a Button look like:
 ![DownloadButton](https://cdn.discordapp.com/attachments/960780341952544798/1013290258168827945/z3677788945730_4c58a199ab1309972048c826f795de09.jpg)
 
 ## Additional information
-
+The package is under development and will be continuously updated
