@@ -40,7 +40,7 @@ class InputText extends StatelessWidget {
                   controller: controller,
                   obscureText: obscureText ?? false,
                   decoration: InputDecoration.collapsed(hintText: label),
-                  cursorColor: cursorColor ?? Colors.black,
+                  cursorColor: cursorColor ?? ThemeData().primaryColor,
                   enabled: enable ?? true,
                   keyboardType: textInputType,
                 ),
