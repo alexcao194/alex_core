@@ -21,7 +21,7 @@ class InkWellButton extends StatelessWidget {
   final double? height;
   final double? width;
   final bool? isActive;
-  final Function? onTap;
+  final VoidCallback? onTap;
   final Widget? child;
 
   @override
@@ -34,6 +34,7 @@ class InkWellButton extends StatelessWidget {
             : Colors.transparent,
         child: InkWell(
             splashColor: primaryColor ?? Colors.white,
+            onTap: onTap,
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(Radius.circular(radius ?? 20.0)),
@@ -44,8 +45,7 @@ class InkWellButton extends StatelessWidget {
               height: height,
               width: width,
               child: Center(child: child),
-            ),
-            onTap: () => onTap),
+            )),
       ),
     );
   }

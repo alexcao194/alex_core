@@ -6,3 +6,5 @@ Just add Readme.md
 Update Readme.md
 ## 0.0.4
 Add some Widget
+## 0.0.5
+Fix a bug that caused InkWellButton not be able to click sometime
